@@ -107,7 +107,7 @@ map <silent> <leader>ee :e $VIMRUNTIME/vimrc_cosin.vim<cr>
 autocmd! bufwritepost .vimrc source $VIMRUNTIME/vimrc_cosin.vim
 "Execute the command which edit in current line and put the result
 "follow this line
-map <silent> <leader>t yyp:. !bash<cr>
+map <silent> <leader>x yyp:. !bash<cr>
 
 " Only do this part when compiled with support for autocommands.
 if has("autocmd")
