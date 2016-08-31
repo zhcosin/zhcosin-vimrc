@@ -64,6 +64,9 @@ set history=20
 " keep a backup file
 set backup			
 
+" show too-long line as far as possible instead of show '@@@'...
+set display=lastline
+
 "Set mapleader
 let mapleader = " "
 
