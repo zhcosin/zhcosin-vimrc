@@ -71,6 +71,7 @@ set display=lastline
 let mapleader = " "
 
 " enable emacs cursor move style when insert mode"
+
 inoremap <C-e> <END>
 inoremap <C-a> <HOME>
 inoremap <C-f> <Right>
